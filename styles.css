@@ -1,5 +1,9 @@
 body {
 	background: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .postcard {
@@ -7,6 +11,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 10px;
 }
 
 .postcard-header {
